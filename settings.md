@@ -1,4 +1,5 @@
-> live sass compiler settings <
+> live sass compiler settings
+
         "liveSassCompile.settings.formats": [
         
             {
