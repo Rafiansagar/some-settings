@@ -1,4 +1,4 @@
-## live sass compiler settings
+## my default vs code setting with live sass compiler
 
         "liveSassCompile.settings.formats": [
         
@@ -11,9 +11,6 @@
         ],
         "explorer.confirmDelete": false,
         "liveSassCompile.settings.generateMap": false,
-        "code-runner.clearPreviousOutput": true,
-        "code-runner.saveFileBeforeRun": true,
-        "workbench.colorTheme": "Learn with Sumit Official Theme",
         "liveSassCompile.settings.autoprefix": [
         
         ],
@@ -21,10 +18,6 @@
         "workbench.panel.defaultLocation": "right",
         "editor.cursorBlinking": "expand",
         "security.workspace.trust.untrustedFiles": "open",
-        "[scss]": {
-            "editor.defaultFormatter": "esbenp.prettier-vscode"
-        },
-        "prettier.tabWidth": 4
 
 ## Compile Scss with cmd
     open cmd
