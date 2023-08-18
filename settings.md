@@ -1,6 +1,6 @@
 > live sass compiler settings
 {
-    > {
+    {
         "liveSassCompile.settings.formats": [
     
             {
