@@ -1,4 +1,4 @@
-## my default vs code setting with live sass compiler
+## My default VSCode setting with live-sass compiler
 
         "liveSassCompile.settings.formats": [
         
@@ -19,7 +19,7 @@
         "editor.cursorBlinking": "expand",
         "security.workspace.trust.untrustedFiles": "open",
 
-## Compile Scss with cmd
+## Compile SASS with cmd
     open cmd
     npm install -g sass
     sass --no-source-map --watch E:\scss-test
