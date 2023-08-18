@@ -1,7 +1,6 @@
 ## live sass compiler settings
 
-[
-{
+
     "liveSassCompile.settings.formats": [
 
         {
@@ -27,8 +26,6 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "prettier.tabWidth": 4
-}
-]
 
 //Compile Scss with cmd
 cmd >
