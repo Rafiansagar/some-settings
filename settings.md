@@ -1,5 +1,6 @@
 ## live sass compiler settings
 
+[
 {
     "liveSassCompile.settings.formats": [
 
@@ -27,7 +28,7 @@
     },
     "prettier.tabWidth": 4
 }
-
+]
 
 //Compile Scss with cmd
 cmd >
