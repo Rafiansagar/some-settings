@@ -24,8 +24,7 @@
         "[scss]": {
             "editor.defaultFormatter": "esbenp.prettier-vscode"
         },
-        
-"prettier.tabWidth": 4
+        "prettier.tabWidth": 4
 
 ## Compile Scss with cmd
     open cmd
