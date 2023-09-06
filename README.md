@@ -1,3 +1,4 @@
+``` json
 ## My default VSCode setting with live-sass compiler
 
         "liveSassCompile.settings.formats": [
@@ -18,6 +19,7 @@
         "workbench.panel.defaultLocation": "right",
         "editor.cursorBlinking": "expand",
         "security.workspace.trust.untrustedFiles": "open",
+```
 
 ## Compile SASS with cmd
     open cmd
