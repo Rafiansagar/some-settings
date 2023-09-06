@@ -1,24 +1,24 @@
-``` json
-## My default VSCode setting with live-sass compiler
 
-        "liveSassCompile.settings.formats": [
-        
-            {
-                "format": "expanded",
-                "extensionName": ".css",
-                "savePath": null,
-                "savePathReplacementPairs": null
-            }
-        ],
-        "explorer.confirmDelete": false,
-        "liveSassCompile.settings.generateMap": false,
-        "liveSassCompile.settings.autoprefix": [
-        
-        ],
-        "liveSassCompile.settings.forceBaseDirectory": "",
-        "workbench.panel.defaultLocation": "right",
-        "editor.cursorBlinking": "expand",
-        "security.workspace.trust.untrustedFiles": "open",
+## My default VSCode setting with live-sass compiler
+``` json
+"liveSassCompile.settings.formats": [
+
+    {
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": null,
+        "savePathReplacementPairs": null
+    }
+],
+"explorer.confirmDelete": false,
+"liveSassCompile.settings.generateMap": false,
+"liveSassCompile.settings.autoprefix": [
+
+],
+"liveSassCompile.settings.forceBaseDirectory": "",
+"workbench.panel.defaultLocation": "right",
+"editor.cursorBlinking": "expand",
+"security.workspace.trust.untrustedFiles": "open",
 ```
 
 ## Compile SASS with cmd
