@@ -25,5 +25,8 @@
     open cmd
     npm install -g sass
     sass --no-source-map --watch E:\scss-test
+    ---------------------------------------------
     or this for all sub directorys
+    ---------------------------------------------
+    
     sass --no-source-map --watch E:\xampp\htdocs\blunor\wp-content\plugins\blunor-addons\widgets:E:\xampp\htdocs\blunor\wp-content\plugins\blunor-addons\widgets
