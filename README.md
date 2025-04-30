@@ -25,6 +25,7 @@
     open cmd
     npm install -g sass
     sass --no-source-map --watch E:\scss-test
+    
     ---------------------------------------------
     or this for all sub directorys
     ---------------------------------------------
