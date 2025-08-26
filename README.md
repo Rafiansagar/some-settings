@@ -22,14 +22,22 @@
 ```
 
 ## Compile SASS with cmd
-    open cmd
-    npm install -g sass
-    sass --no-source-map --watch E:\scss-test
-    
-    ---------------------------------------------
-    or this for all sub directorys
-    ---------------------------------------------
-    
-    For global: sass --no-source-map --watch E:\xampp\htdocs\blunor\wp-content\plugins\blunor-addons\widgets:E:\xampp\htdocs\blunor\wp-content\plugins\blunor-addons\widgets
 
-    For same dir: sass --no-source-map --watch .:.
+Install SASS:
+```
+npm install -g sass
+```
+For input defiend
+```
+sass --no-source-map --watch E:\scss-test
+```
+    
+For global with sub dir (Input & Output Defined):
+```
+sass --no-source-map --watch E:\xampp\htdocs\blunor\wp-content\plugins\blunor-addons\widgets:E:\xampp\htdocs\blunor\wp-content\plugins\blunor-addons\widgets
+```
+
+For same dir:
+```
+sass --no-source-map --watch .:.
+```
