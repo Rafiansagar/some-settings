@@ -30,4 +30,6 @@
     or this for all sub directorys
     ---------------------------------------------
     
-    sass --no-source-map --watch E:\xampp\htdocs\blunor\wp-content\plugins\blunor-addons\widgets:E:\xampp\htdocs\blunor\wp-content\plugins\blunor-addons\widgets
+    For global: sass --no-source-map --watch E:\xampp\htdocs\blunor\wp-content\plugins\blunor-addons\widgets:E:\xampp\htdocs\blunor\wp-content\plugins\blunor-addons\widgets
+
+    For same dir: sass --no-source-map --watch .:.
