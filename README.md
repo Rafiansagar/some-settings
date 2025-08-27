@@ -33,7 +33,7 @@ sass --no-source-map --watch .:.
 ```
 For this directory only:
 ```
-sass --no-source-map --watch "./*.scss":"./"
+sass --no-source-map --watch "./":"./"
 ```
 For selected file:
 ```
@@ -41,7 +41,7 @@ sass --no-source-map --watch style.scss:style.css main.scss:main.css
 ```
 Each .scss → its own .css in scss/ :
 ```
-sass --no-source-map "./*.scss":"./scss/"
+sass --no-source-map "./":"./scss/"
 ```
 All SCSS into a single CSS
 ```
