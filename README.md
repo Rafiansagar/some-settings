@@ -47,6 +47,8 @@ All SCSS into a single CSS
 ```
 sass --no-source-map ./:"./scss/style.css"
 ```
+
+
 ## Run cmd on network pc
 ```
 On host pc:
