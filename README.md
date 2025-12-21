@@ -42,6 +42,9 @@ sass --no-source-map --watch style.scss:style.css main.scss:main.css
 ```
 sass --no-source-map --watch card-style.scss:../css/card-style.css
 ```
+```
+sass --no-source-map --watch public/assets/scss/card-style.scss:public/assets/css/card-style.css
+```
 Each .scss → its own .css in scss/ :
 ```
 sass --no-source-map "./":"./scss/"
