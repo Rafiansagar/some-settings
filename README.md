@@ -77,3 +77,24 @@ ssh userName@192.168.0.138
 yes
 pass: host pass
 ```
+
+## GRUB recover/install from live usb on manjaro
+```
+lsblk -f
+
+
+choose root (/)
+
+e.g.
+sudo mount /dev/sda2 /mnt
+sudo mount /dev/sda1 /mnt/boot/efi
+
+sudo chroot /mnt
+
+grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=Manjaro --recheck
+
+update-grub
+
+exit
+sudo reboot
+```
