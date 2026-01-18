@@ -82,7 +82,6 @@ pass: host pass
 ```
 lsblk -f
 
-
 choose root (/)
 
 e.g.
